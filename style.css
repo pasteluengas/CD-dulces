@@ -1,0 +1,82 @@
+body {
+	background-image: url('https://pasteluengas.github.io/dulces-analogicos-epk/img/background.jpg');
+	color: #FFFFFF;
+}
+
+.aja {
+	background-color: #000000;
+}
+
+div {
+	font-family: Arial
+	text-align: center;
+	max-height: 100%;
+}
+
+.s1 {
+	font-family: Courier New;
+}
+
+.s2 {
+	font-family: Times New Roman;
+}
+
+.s3 {
+	font-family: 'Brush Script MT', cursive;
+}
+
+.container {
+	height: 100vh;
+	padding: 30px;
+	width: 400px;
+}
+
+.container, .button-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+button {
+	margin: 5px;
+	width: 150%;
+	height: 70px;
+	outline: none;
+	border: none;
+	font-size: 20px;
+	background-color: #000C60;
+	color: #648BBB;
+}
+
+button:hover {
+	background-image: url('https://f4.bcbits.com/img/a1606253170_10.jpg');
+	background-size: cover;
+	color: #000000;
+}
+
+#button-top {
+	background-position: top;
+}
+
+#button-center {
+	background-position: center;
+}
+
+#button-bottom {
+	background-position: bottom;
+}
+
+dialog .dialog-container * {
+	width: 100%;
+}
+
+h3 {
+	font-family: arial;
+}
+
+dialog {
+	background-color: #000000;
+	color: #FFFFFF;
+	border: #000000;
+}
