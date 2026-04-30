@@ -1,82 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
 body {
-	background-image: url('https://pasteluengas.github.io/dulces-analogicos-epk/img/background.jpg');
-	color: #FFFFFF;
+	font-family: arial;
+	background-color: black;
+	color: white;
+
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-.aja {
-	background-color: #000000;
-}
-
-div {
-	font-family: Arial
-	text-align: center;
-	max-height: 100%;
-}
-
-.s1 {
-	font-family: Courier New;
-}
-
-.s2 {
-	font-family: Times New Roman;
-}
-
-.s3 {
-	font-family: 'Brush Script MT', cursive;
+h1, h2 {
+	font-family: Lora;
 }
 
 .container {
-	height: 100vh;
-	padding: 30px;
-	width: 400px;
+	max-width: 600px;
 }
 
-.container, .button-list {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
+.container * {
+	width: 100%;
+}
+
+iframe {
+	width: 100%;
+	height: 70px;
 }
 
 button {
 	margin: 5px;
-	width: 150%;
-	height: 70px;
-	outline: none;
+	padding: 20px;
+	font-family: arial;
 	border: none;
-	font-size: 20px;
-	background-color: #000C60;
-	color: #648BBB;
+	outline: none;
+	background-color: #CAFF70;
+	font-size: 15px;
+
+	height: 60px;
+	transition: height 0.5s ease 0.5s;
 }
 
 button:hover {
-	background-image: url('https://f4.bcbits.com/img/a1606253170_10.jpg');
-	background-size: cover;
-	color: #000000;
+	height: 300px;
+	transition: height 0.5s ease 0s;
 }
 
-#button-top {
-	background-position: top;
+#button-cd:hover {
+	background-image: url("https://i.ytimg.com/vi/RiuxP-_lJ9M/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLACGDDRxjA6AiNdSVgiLbnznymd-g");
+	color: white;
+	transition-delay: 0s;
 }
 
-#button-center {
-	background-position: center;
+#button-spotify:hover {
+	background-image: url("https://i.ytimg.com/vi/wi-H6ohY37k/hqdefault.jpg?sqp=-oaymwExCOADEI4CSFryq4qpAyMIARUAAIhCGAHwAQH4Af4EgALgA4oCDAgAEAEYZSBlKGUwDw==&rs=AOn4CLDAJ9jrnQ6OiLr7vRutqe9CjMJ5OQ");
+	background-repeat: not-repeat;
+	color: black;
 }
 
-#button-bottom {
-	background-position: bottom;
+#button-youtube:hover {
+	background-image: url("https://i.ytimg.com/vi/nS-q8DhrQdo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC2P5xY1ui9HU_Z9iUVy4DwMyMp4A");
+	background-repeat: not-repeat;
+	color: BLUE;
 }
 
-dialog .dialog-container * {
-	width: 100%;
-}
-
-h3 {
-	font-family: arial;
-}
-
-dialog {
-	background-color: #000000;
-	color: #FFFFFF;
-	border: #000000;
+#button-apple:hover {
+	background-image: url("https://i.ytimg.com/vi/nS-q8DhrQdo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC2P5xY1ui9HU_Z9iUVy4DwMyMp4A");
+	background-repeat: not-repeat;
+	color: BLUE;
 }
